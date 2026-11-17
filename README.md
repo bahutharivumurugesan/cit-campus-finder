@@ -1,4 +1,4 @@
-CIT Campus Finder
+**CIT Campus Finder**
 
 **Find the places you need around Chennai Institute of Technology.**
 

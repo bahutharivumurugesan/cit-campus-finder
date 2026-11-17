@@ -1,35 +1,50 @@
-# CIT Campus Finder
+CIT Campus Finder
 
-A lightweight campus wayfinding website prototype for Chennai Institute of Technology (CIT), Kundrathur. Search common places, review building/floor/landmark information, and suggest corrections.
+**Find the places you need around Chennai Institute of Technology.**
 
-## Run it in VS Code
-
-1. Open this folder (`cit-campus-finder`) in Visual Studio Code.
-2. Open `index.html` with VS Code's **Live Server** extension, or open the file directly in a browser.
-3. Search for a place, select a category, tap an illustrated block, and try the correction form.
-
-There are no package installs or build steps. The app uses plain HTML, CSS, and JavaScript.
+CIT Campus Finder is a lightweight web app concept for helping students locate common campus destinations and view useful building, floor, and landmark details.
 
 ## Features
 
-- Search for campus places and filter by category.
-- Show building, floor, landmark, and route notes for a selected place.
-- Select an illustrative campus block to highlight it on the map.
-- Save a sample correction locally in the current browser for a project demo.
-- Use the layout on mobile or desktop.
+- Search campus places and filter them by category.
+- View location details and route notes.
+- Explore an interactive campus illustration.
+- Submit a sample correction, saved in the current browser.
+- Use the responsive interface on desktop or mobile.
 
-## Before real campus use
+## Getting started
 
-The campus illustration and building positions are approximate placeholders, not an official plan. Exact routes, floors, room numbers, access rules, and accessible paths have not been verified. Ask CIT students or authorized staff to confirm every entry; replace the illustration with an approved/verified map before presenting it as accurate. Corrections in the demo form are saved only on that browser/device and are not submitted to a server.
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a browser, or run it with the Live Server extension.
 
-## Project material
+No package installation or build step is required.
 
-- `project-outline.md` — report and presentation structure
-- `student-survey.md` — short student research questions
-- `places.csv` — field sheet for collecting verified place details
-- `research-notes.md` — public-source notes and novelty check
-- `linkedin-draft.md` — draft post to adapt after testing with students
+## Built with
 
-## Public research leads
+- HTML
+- CSS
+- JavaScript
 
-The included research notes link to CIT's public campus information, a student day-in-the-life post, a YouTube campus tour, and a Reddit post that claims a similar CIT navigation app. Treat social content as discovery material, not as proof of exact routes or proof that another app is active. Check existing work with students before claiming this idea is unique.
+## Project structure
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | App page structure |
+| `styles.css` | Layout and visual styling |
+| `app.js` | Search, filters, map interactions, and suggestions |
+| `places.csv` | Sample place data and a field sheet for verified entries |
+| `project-outline.md` | Project report and presentation outline |
+| `student-survey.md` | Student research questions |
+| `demo-voiceover.md` | Short demo narration |
+
+## Project status
+
+This is a student project prototype. The map is illustrative and place details are sample data; verify locations and routes with CIT before relying on them for navigation. Suggestions are stored only in the browser and are not sent to a server.
+
+## Future improvements
+
+- Replace the illustration with a verified campus map.
+- Add accessible routes and clearer building-level directions.
+- Connect suggestions to a shared review system.
+- Validate the place list with students and campus staff.

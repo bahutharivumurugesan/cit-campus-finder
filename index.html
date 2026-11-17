@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10233f" />
+  <title>CIT Campus Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><div class="brand"><div class="brand-mark">C</div><div>CIT Campus Finder<div class="header-note">A student-built campus wayfinding prototype</div></div></div><div class="header-note">Chennai Institute of Technology · Kundrathur</div></header>
+  <main>
+    <section class="intro"><div><div class="eyebrow">Find your way around campus</div><h1>Where do you need to go?</h1><p>Search a campus place and get a quick starting point. Help make this map more accurate by sharing verified locations.</p></div><div class="badge">Prototype · student-verified details needed</div></section>
+    <div class="layout">
+      <section class="panel search-panel"><h2>Search places</h2><div class="sub">Try “library”, “canteen” or “auditorium”.</div><label class="search-wrap"><span>⌕</span><input id="query" type="search" placeholder="Type a place name…" autocomplete="off" aria-label="Search campus places"></label><div class="filters" id="filters"></div><div class="results" id="results"></div><div class="details" id="details" aria-live="polite"><div class="detail-row">Select a place to see its details and suggested route.</div></div></section>
+      <section class="panel map-panel"><div class="map-top"><div><h2>Campus overview</h2><div class="sub" style="margin-bottom:0">Illustrative layout only — confirm building positions on site.</div></div><div class="badge">Tap a block</div></div>
+        <div class="map" id="map"><div class="campus-title">CHENNAI INSTITUTE OF TECHNOLOGY</div><div class="path"></div><div class="map-label" style="left:9%;top:83%">CAMPUS ENTRANCE</div><div class="map-label" style="right:10%;top:45%">CAMPUS ROAD</div>
+          <button class="block b1" data-id="gate">Main Gate<small>Starting point</small></button><button class="block b2" data-id="main">Main Block<small>Academic / admin</small></button><button class="block b3" data-id="canteen">Canteen / Food Court<small>Confirm exact name</small></button><button class="block b4" data-id="firstyear">First Year Block<small>Academic</small></button><button class="block b5" data-id="auditorium">Auditorium<small>Events</small></button><button class="block b6" data-id="hostel">Hostels<small>Restricted area</small></button><div class="pin" id="pin"></div>
+        </div><div class="map-legend"><span><i class="legend-dot"></i>Approximate campus block</span><span>🔵 Selected destination</span></div><div class="disclaimer"><b>Map accuracy note:</b> This is a visual demo, not an official campus plan. Building positions, floors, room numbers and routes must be checked with CIT students or staff before use.</div>
+      </section>
+    </div>
+    <details class="panel contribute"><summary>Help improve the campus information</summary><p>Know a verified place, floor, or landmark? Add a correction for the project team to review.</p><form id="suggestion-form"><div class="form-grid"><input id="suggestion-place" required maxlength="80" placeholder="Place name (e.g. Library)" aria-label="Place name"><input id="suggestion-floor" maxlength="80" placeholder="Building / floor (if known)" aria-label="Building or floor"><textarea id="suggestion-detail" required maxlength="500" placeholder="What should be corrected or added?" aria-label="Suggested correction"></textarea></div><button class="primary" type="submit">Save suggestion</button><span class="saved-note" id="saved-note" aria-live="polite"></span></form><p class="local-note">Demo only: suggestions are saved in this browser on this device. They are not sent to CIT or anyone else.</p></details>
+  </main>
+  <div class="footer"><span>Built as a student project concept · CIT Chennai</span><span>No live location is collected in this demo.</span></div>
+  <script src="app.js" defer></script>
+</body>
+</html>
+

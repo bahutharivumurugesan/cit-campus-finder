@@ -1,0 +1,13 @@
+id,name,category,building,floor,landmark,directions,verified_by,verified_date,permission_to_publish,notes
+gate,Main Gate,Entry,Campus entrance,Ground level,Starting point,,Student/staff name,,No,Use as starting point
+main,Main Block,Academic block,Main Block,Please verify,Please verify,Please verify,,,No,Confirm public names and entrances
+firstyear,First Year Block,Academic block,First Year Block,Please verify,Please verify,Please verify,,,No,Confirm current naming
+auditorium,Auditorium,Events,Auditorium,Please verify,Please verify,Please verify,,,No,Confirm route and event entrance
+canteen,Canteen / Food Court,Food,Canteen / Arusuvai Food Court (confirm),Please verify,Please verify,Please verify,,,No,Confirm current name and location
+library,Library,Study,Please verify,Please verify,Please verify,Please verify,,,No,Confirm building and floor
+office,Administrative / HR Office,Services,Please verify,Please verify,Please verify,Please verify,,,No,Confirm which office a visitor needs
+washroom,Washroom,Facilities,Please verify,Please verify,Please verify,Please verify,,,No,Could add accessible facility info after checking
+mess,Mess Hall,Food,Mess Hall,Please verify,Please verify,Please verify,,,No,Check access and timings
+labs,Laboratories,Academic block,Please verify by department,Please verify,Please verify,Please verify,,,No,Confirm a specific department lab
+sports,Sports / Playground,Facilities,Please verify,Ground level (confirm),Please verify,Please verify,,,No,Confirm facilities and entrance
+hostel,Hostels,Hostel,Hostel area,Please verify,Please verify,Please verify,,,No,Do not publish restricted access details
